@@ -26,6 +26,16 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
+        <header>
+          <ul className="p-4 flex flex-row gap-2 border-b-black border-b mb-2">
+            <li>
+              <a href="/animations">animations</a>
+            </li>
+            <li>
+              <a href="/calculator">calculator</a>
+            </li>
+          </ul>
+        </header>
         {children}
       </body>
     </html>
