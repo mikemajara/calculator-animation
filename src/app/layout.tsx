@@ -27,11 +27,14 @@ export default function RootLayout({
         )}
       >
         <header>
-          <ul className="p-4 flex flex-row gap-2 border-b-black border-b mb-2">
-            <li>
-              <a href="/animations">animations</a>
+          <ul className="flex flex-row gap-2 p-4 mb-2 border-b border-b-black">
+            <li className="hover:underline">
+              <a href="/animations-css">Animations CSS</a>
             </li>
-            <li>
+            <li className="hover:underline">
+              <a href="/animations-framer">Animations framer</a>
+            </li>
+            <li className="hover:underline">
               <a href="/calculator">calculator</a>
             </li>
           </ul>

@@ -1,5 +1,5 @@
 "use client";
-import AnimatedBall from "@/components/calculator/animated-ball";
+import AnimatedBall from "@/components/animations/animated-ball";
 import { useEffect, useReducer } from "react";
 
 export default function Page() {
